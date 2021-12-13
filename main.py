@@ -8,8 +8,8 @@ import mysql.connector
 import  africastalking
 import numpy as np
 ######################### SMS API######################################
-username = "leonTech"    # use 'sandbox' for development in the test environment
-api_key = "8f45052f9c7c74c52b721f1378b56e69c4b4e8b4d7ec95da578f711e0e4508f5"      # use your sandbox app API key for development in the test environment
+username = "#API USERNAME"    # use 'sandbox' for development in the test environment
+api_key = "#API KEY HERE"      # use your sandbox app API key for development in the test environment
 africastalking.initialize(username, api_key)
 sms=africastalking.SMS
 ################################################################
